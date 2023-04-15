@@ -63,7 +63,6 @@ body {
 }
 
 #coin {
-  border: 1px solid red;
     height: 150px;
     width: 50px;
     position: absolute;
