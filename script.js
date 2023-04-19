@@ -13,6 +13,14 @@ document.addEventListener("keydown", function(event) {
 
 });
 
+document.addEventListener("touchstart", function(event) {
+  setTimeout(() => {
+    countMore()
+  }, 150);
+  jump();
+
+});
+
 function jump () {
   if (dino.classList != "jump") {
     dino.classList.add("jump")
